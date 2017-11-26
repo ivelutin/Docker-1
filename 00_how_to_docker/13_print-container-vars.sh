@@ -1,0 +1,23 @@
+#!/bin/sh
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13_print-container-vars.sh                         :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2017/08/03 03:29:50 by jaleman           #+#    #+#              #
+#    Updated: 2017/08/03 03:29:58 by jaleman          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Include exported enviroment variables
+. "./_ENV.sh"
+
+#------------------------------------------------------------------------------#
+# 13. Print the environment variables of the spawning-pool container in one
+# command, to be sure that you have configured your container properly.
+#------------------------------------------------------------------------------#
+
+# Print the enviroment variables of the container.
+docker inspect --format='{{.Config.Env}}' $DATABASE_CONTAINER
