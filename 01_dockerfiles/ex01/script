@@ -1,0 +1,7 @@
+# Sources:
+# https://raw.githubusercontent.com/overshard/docker-teamspeak/master/scripts/start
+
+# Run the teamspeak server
+export LD_LIBRARY_PATH=/opt/teamspeak
+cd /opt/teamspeak
+./ts3server logpath=/data/logs
