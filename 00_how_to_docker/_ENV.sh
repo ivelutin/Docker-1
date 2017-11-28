@@ -1,15 +1,15 @@
-#!/bin/sh
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    _ENV.sh                                           :+:      :+:    :+:    #
+#    _ENV.sh                                            :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+         #
+#    By: ivelutin <ivelutin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2017/08/03 03:29:50 by jaleman           #+#    #+#              #
-#    Updated: 2017/08/03 03:29:58 by jaleman          ###   ########.fr        #
+#    Created: 2017/11/27 18:38:03 by ivelutin          #+#    #+#              #
+#    Updated: 2017/11/27 18:38:18 by ivelutin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+#!/bin/sh
 
 # Declare enviroment variables.
 declare VM_IP

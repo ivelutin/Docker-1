@@ -1,15 +1,16 @@
-#!/bin/sh
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
 #    34_machine-delete.sh                               :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jaleman <jaleman@student.42.us.org>        +#+  +:+       +#+         #
+#    By: ivelutin <ivelutin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2017/08/03 03:29:50 by jaleman           #+#    #+#              #
-#    Updated: 2017/08/03 03:29:58 by jaleman          ###   ########.fr        #
+#    Created: 2017/11/27 14:35:13 by ivelutin          #+#    #+#              #
+#    Updated: 2017/11/27 18:35:59 by ivelutin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+#!/bin/sh
+
 
 # Include exported enviroment variables
 . "./_ENV.sh"
